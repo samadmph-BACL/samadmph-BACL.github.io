@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Muhammad Abdus Samad — Research</title>
+<meta name="description" content="Doctoral researcher in pharmaceutics at Jeju National University, working on oral peptide delivery and blood substitutes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+ --bg:#fbfbfa;--panel:#fff;--ink:#16181c;--mut:#767c86;--faint:#aeb3ba;--line:#e8e8e6;--grid:#f0f0ee;
+ --a1:#2c6e9b;--a2:#9b5a2c;--soft:#eef4f8;--soft2:#f8f1ea;--fill:#c9d6de}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1115;--panel:#16181d;--ink:#e9ebef;
+ --mut:#8d949f;--faint:#5a616b;--line:#242830;--grid:#1e222a;--a1:#6fa8cd;--a2:#c89462;--soft:#182530;--soft2:#2a2219;--fill:#38485a}}
+:root[data-theme="dark"]{--bg:#0f1115;--panel:#16181d;--ink:#e9ebef;--mut:#8d949f;--faint:#5a616b;--line:#242830;
+ --grid:#1e222a;--a1:#6fa8cd;--a2:#c89462;--soft:#182530;--soft2:#2a2219;--fill:#38485a}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,sans-serif;
+ font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding:40px 20px 80px}
+.hero{display:flex;gap:18px;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;margin-bottom:10px}
+h1{font-size:30px;font-weight:700;margin:0 0 4px;letter-spacing:-.02em}
+.role{font-size:16px;color:var(--a1);font-weight:600;margin:0 0 8px}
+.aff{color:var(--mut);font-size:13.5px;margin:0 0 14px}
+.links{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.links a{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:500;text-decoration:none;
+ color:var(--mut);border:1px solid var(--line);background:var(--panel);padding:6px 13px;border-radius:999px;transition:.12s}
+.links a:hover{color:var(--a1);border-color:var(--a1)}
+button{font:inherit;font-size:12.5px;font-weight:500;cursor:pointer;border-radius:7px;border:1px solid var(--line);
+ background:var(--panel);color:var(--mut);padding:6px 12px}
+button:hover{color:var(--ink)}
+h2{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);
+ margin:40px 0 14px;padding-bottom:7px;border-bottom:1px solid var(--line)}
+.lede{font-size:16px;line-height:1.6;margin:0}
+.grid{display:grid;gap:14px}
+@media(min-width:720px){.g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px}
+.card.b2{border-top:3px solid var(--a2)}.card.b1{border-top:3px solid var(--a1)}
+.card h3{font-size:16px;font-weight:650;margin:0 0 3px;letter-spacing:-.01em}
+.card .tagline{font-size:12.5px;color:var(--a1);font-weight:600;margin:0 0 10px}
+.card.b2 .tagline{color:var(--a2)}
+.card p{margin:0 0 11px;font-size:14px;color:var(--mut);line-height:1.55}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+.kpi .n{font-size:27px;font-weight:650;letter-spacing:-.02em;line-height:1.1}
+.kpi .l{color:var(--mut);font-size:12.5px;margin-top:3px}
+.track{height:7px;background:var(--grid);border-radius:4px;overflow:hidden;margin-top:4px}
+.track i{display:block;height:100%;background:var(--a1);border-radius:4px}.track i.o{background:var(--a2)}
+.tmeta{display:flex;justify-content:space-between;font-size:12px;color:var(--faint);margin-top:6px}
+svg{display:block;max-width:100%;height:auto;overflow:visible}
+.axis-t{font-size:11px;fill:var(--mut)}
+.tl{position:relative;padding-left:26px}
+.tl::before{content:"";position:absolute;left:6px;top:7px;bottom:7px;width:2px;background:var(--line)}
+.tl .ev{position:relative;padding:9px 0}
+.tl .ev::before{content:"";position:absolute;left:-24px;top:16px;width:10px;height:10px;border-radius:50%;
+ background:var(--panel);border:2px solid var(--a1)}
+.tl .ev.o::before{border-color:var(--a2)}
+.tl .ev.now::before{background:var(--a1);border-color:var(--a1)}
+.tl .d{font-size:11.5px;color:var(--faint);font-variant-numeric:tabular-nums}
+.tl .t{font-size:14.5px;font-weight:600;margin:1px 0}
+.tl .b{font-size:13px;color:var(--mut)}
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chip{font-size:12.5px;padding:5px 12px;border-radius:999px;background:var(--soft);color:var(--a1);font-weight:500}
+.chip.o{background:var(--soft2);color:var(--a2)}
+.out{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--line)}
+.out:last-child{border-bottom:none}
+.out .t{font-size:14px;font-weight:580}
+.out .d{font-size:12.5px;color:var(--mut);margin-top:2px}
+.pill{font-size:11px;font-weight:600;padding:3px 10px;border-radius:999px;background:var(--grid);color:var(--mut);white-space:nowrap}
+.pill.a{background:var(--soft);color:var(--a1)}
+footer{margin-top:50px;padding-top:18px;border-top:1px solid var(--line);text-align:center;color:var(--faint);font-size:12px}
+footer a{color:var(--mut);text-decoration:none}
+@media print{button{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+ <div class="hero">
+  <div>
+   <h1 id="h-name"></h1>
+   <p class="role" id="h-role"></p>
+   <p class="aff" id="h-aff"></p>
+   <div class="links" id="h-links"></div>
+  </div>
+  <button id="thm">Theme</button>
+ </div>
+
+ <h2>Research focus</h2>
+ <p class="lede" id="s-lede"></p>
+
+ <div class="grid g2" style="margin-top:20px" id="s-projects"></div>
+
+ <h2>At a glance</h2>
+ <div class="grid g4" id="s-kpis"></div>
+
+ <h2>Why this work matters</h2>
+ <div class="grid g3" id="s-why"></div>
+
+ <h2>Academic progress</h2>
+ <div class="grid g2" style="align-items:start">
+  <div class="card"><div class="tl" id="s-timeline"></div></div>
+  <div class="card" id="s-prog"></div>
+ </div>
+
+ <h2>Techniques</h2>
+ <div class="card"><div class="chips" id="s-skills"></div></div>
+
+ <h2>Output</h2>
+ <div class="card" id="s-outputs"></div>
+
+ <footer>
+  <p id="f-note"></p>
+  <p id="f-links"></p>
+ </footer>
+</div>
+
+<script type="application/json" id="state">
+{
+ "name":"Muhammad Abdus Samad",
+ "role":"Doctoral researcher in pharmaceutics — drug delivery",
+ "aff":"Bioavailability Control Laboratory · College of Pharmacy, Jeju National University, Republic of Korea",
+ "orcid":"0009-0000-3700-8725",
+ "github":"",
+ "email":"samad.mph@gmail.com",
+ "linkedin":"https://www.linkedin.com/in/Muhammad-abdus-samad-ba36052a",
+ "extra":[],
+ "lede":"I design materials that help large, fragile drug molecules survive the human body and reach where they are needed. Two programmes run in parallel: making peptide medicines that currently require injection absorbable as a tablet, and developing oxygen-carrying substitutes for donated blood. Both sit at the meeting point of synthetic chemistry, physical pharmacy and formulation science, and both carry twelve years of prior pharmaceutical manufacturing experience into academic research.",
+ "projects":[
+  {"t":"Oral delivery of peptide medicines","g":"Doctoral research · 2024 – present","c":"b1",
+   "p":"Drugs such as the GLP-1 receptor agonists have transformed the treatment of diabetes and obesity, but almost all of them must be injected. The gut destroys and blocks peptides so effectively that less than one percent of an oral dose typically reaches the bloodstream.",
+   "q":"This programme develops a new family of absorption-enhancing materials built from naturally occurring building blocks, designed so that the molecule can be tuned systematically rather than discovered by trial and error. The aim is a material that improves absorption without irritating the intestinal lining — the trade-off that has limited every enhancer brought to market so far.",
+   "s":"Year 3 of a three-year national research programme","pr":62},
+  {"t":"Hemoglobin-based oxygen carriers","g":"Collaborative research · 2025 – present","c":"b2",
+   "p":"Donated blood is perishable, type-matched and chronically scarce. A stable, universally compatible oxygen carrier would transform emergency and battlefield medicine, and decades of attempts have shown how difficult that is.",
+   "q":"This work studies how haemoglobin that has lost its oxygen-carrying ability can be chemically restored, how that restoration behaves over time and across concentrations, and how the protein can be stabilised by conjugation with carrier proteins.",
+   "s":"Characterization and method development phase","pr":35}
+ ],
+ "kpis":[
+  {"n":"2","l":"active research programmes"},
+  {"n":"12 yr","l":"prior pharmaceutical industry experience"},
+  {"n":"15+","l":"novel materials synthesized"},
+  {"n":"3","l":"degrees in pharmacy and medicine"}
+ ],
+ "why":[
+  {"h":"Adherence","b":"A weekly injection is a barrier for a chronic, largely symptom-free condition. Converting an injectable therapy to a tablet changes who can realistically stay on treatment, particularly where cold chains and clinical support are limited."},
+  {"h":"Platform, not one drug","b":"An absorption-enhancing material that works is not specific to a single medicine. The same approach applies to insulin, hormone therapies and cancer peptides, which is why the field matters beyond any one product."},
+  {"h":"Supply resilience","b":"Blood supply depends on donation, matching and refrigeration. A synthetic oxygen carrier addresses a constraint that no amount of logistics can fully solve."}
+ ],
+ "timeline":[
+  {"d":"2004 – 2009","t":"Bachelor of Pharmacy","b":"Stamford University Bangladesh","c":""},
+  {"d":"2010 – 2023","t":"Pharmaceutical industry","b":"Production, product development and quality roles across three manufacturers; facility design and cGMP operations","c":""},
+  {"d":"2023 – 2025","t":"MS, Medicine","b":"Jeju National University · GPA 4.32 / 4.50","c":""},
+  {"d":"2024","t":"Joined national research programme","b":"Absorption-enhancing materials for oral peptides","c":""},
+  {"d":"2025","t":"Began doctoral research","b":"Jeju National University, Bioavailability Control Laboratory","c":""},
+  {"d":"2025","t":"Second programme begins","b":"Hemoglobin-based oxygen carriers","c":"o"},
+  {"d":"2026","t":"Comprehensive examination passed","b":"Preformulation, applied pharmaceutics, drug delivery systems, advanced medicinal chemistry","c":""},
+  {"d":"2026","t":"First international conference submission","b":"AAPS PharmSci 360","c":"now"}
+ ],
+ "skills":[
+  "Organic synthesis and scale-up","NMR spectroscopy","FT-IR","Differential scanning calorimetry",
+  "HPLC method development","UV-Vis spectroscopy","Fluorescence spectroscopy","Dynamic light scattering",
+  "Zeta potential","Self-assembly characterization","Nanoprecipitation","Lyophilization",
+  "Dissolution testing","Franz diffusion cells","Tablet compression","Biorelevant media",
+  "Mammalian cell culture","cGMP manufacturing","Regulatory documentation"
+ ],
+ "outputs":[
+  {"t":"A bile acid–fatty acid conjugate for oral semaglutide","d":"AAPS PharmSci 360, 2026 — poster presentation","s":"Submitted"},
+  {"t":"Annual research progress report, Year 3","d":"National Materials & Components Technology Development Program","s":"Delivered"},
+  {"t":"Synthesis and structure–property relationships of a new enhancer series","d":"Manuscript in preparation","s":"Drafting"},
+  {"t":"Co-processed peptide formulations","d":"Manuscript planned","s":"Planned"},
+  {"t":"Review — oral delivery of peptide therapeutics","d":"Manuscript in preparation","s":"Drafting"},
+  {"t":"Morphological response of neuronal cells to low-intensity ultrasound","d":"MS thesis, Jeju National University, 2025","s":"Complete"}
+ ],
+ "note":"Research summary only. Experimental procedures, compound structures and unpublished data are intentionally not included."
+}
+</script>
+
+<script>
+(function(){
+"use strict";
+var S=JSON.parse(document.getElementById("state").textContent);
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+function el(id){return document.getElementById(id);}
+
+el("h-name").textContent=S.name;
+el("h-role").textContent=S.role;
+el("h-aff").textContent=S.aff;
+function link(url,label){return '<a href="'+esc(url)+'" target="_blank" rel="noopener">'+esc(label)+'</a>';}
+var lk="";
+if(S.orcid) lk+=link("https://orcid.org/"+S.orcid,"ORCID "+S.orcid);
+if(S.scholar) lk+=link(S.scholar,"Google Scholar");
+if(S.github) lk+=link(S.github,"GitHub");
+if(S.linkedin) lk+=link(S.linkedin,"LinkedIn");
+if(S.researchgate) lk+=link(S.researchgate,"ResearchGate");
+(S.extra||[]).forEach(function(x){ if(x && x.url && x.label) lk+=link(x.url,x.label); });
+if(S.email) lk+='<a href="mailto:'+esc(S.email)+'">Email</a>';
+el("h-links").innerHTML=lk;
+el("s-lede").textContent=S.lede;
+
+el("s-projects").innerHTML=S.projects.map(function(p){
+ return '<div class="card '+esc(p.c)+'"><h3>'+esc(p.t)+'</h3><p class="tagline">'+esc(p.g)+'</p>'+
+  '<p>'+esc(p.p)+'</p><p>'+esc(p.q)+'</p>'+
+  '<div class="track"><i class="'+(p.c==="b2"?"o":"")+'" style="width:'+(p.pr||0)+'%"></i></div>'+
+  '<div class="tmeta"><span>'+esc(p.s)+'</span><span>'+(p.pr||0)+'%</span></div></div>';}).join("");
+
+el("s-kpis").innerHTML=S.kpis.map(function(k){
+ return '<div class="kpi"><div class="n">'+esc(k.n)+'</div><div class="l">'+esc(k.l)+'</div></div>';}).join("");
+
+el("s-why").innerHTML=S.why.map(function(w){
+ return '<div class="card"><h3 style="font-size:15px">'+esc(w.h)+'</h3><p style="margin-top:7px">'+esc(w.b)+'</p></div>';}).join("");
+
+el("s-timeline").innerHTML=S.timeline.map(function(e){
+ return '<div class="ev '+esc(e.c||"")+'"><div class="d">'+esc(e.d)+'</div><div class="t">'+esc(e.t)+'</div><div class="b">'+esc(e.b)+'</div></div>';}).join("");
+
+(function(){
+ var r=52,C=2*Math.PI*r;
+ var avg=Math.round(S.projects.reduce(function(a,p){return a+(p.pr||0);},0)/Math.max(1,S.projects.length));
+ var on=C*avg/100;
+ var h='<h3 style="font-size:15px;margin-bottom:12px">Programme completion</h3>'+
+  '<div style="text-align:center">'+
+  '<svg viewBox="0 0 150 150" width="150" height="150"><circle cx="75" cy="75" r="'+r+'" fill="none" stroke="var(--grid)" stroke-width="13"/>'+
+  '<circle cx="75" cy="75" r="'+r+'" fill="none" stroke="var(--a1)" stroke-width="13" stroke-linecap="round" stroke-dasharray="'+on.toFixed(1)+' '+(C-on).toFixed(1)+'" transform="rotate(-90 75 75)"/>'+
+  '<text x="75" y="73" text-anchor="middle" style="font-size:27px;font-weight:650;fill:var(--ink)">'+avg+'%</text>'+
+  '<text x="75" y="92" text-anchor="middle" class="axis-t">average</text></svg></div>';
+ S.projects.forEach(function(p){
+  h+='<div style="margin-top:14px"><div style="font-size:13px;font-weight:580">'+esc(p.t)+'</div>'+
+     '<div class="track"><i class="'+(p.c==="b2"?"o":"")+'" style="width:'+(p.pr||0)+'%"></i></div></div>';});
+ el("s-prog").innerHTML=h;
+})();
+
+el("s-skills").innerHTML=S.skills.map(function(s,i){
+ return '<span class="chip'+(i%5===4?" o":"")+'">'+esc(s)+'</span>';}).join("");
+
+el("s-outputs").innerHTML=S.outputs.map(function(o){
+ return '<div class="out"><div><div class="t">'+esc(o.t)+'</div><div class="d">'+esc(o.d)+'</div></div>'+
+  '<span class="pill'+(o.s==="Submitted"||o.s==="Complete"||o.s==="Delivered"?" a":"")+'">'+esc(o.s)+'</span></div>';}).join("");
+
+el("f-note").textContent=S.note;
+var fl=[];
+if(S.orcid) fl.push(link("https://orcid.org/"+S.orcid,"ORCID"));
+if(S.scholar) fl.push(link(S.scholar,"Google Scholar"));
+if(S.github) fl.push(link(S.github,"GitHub"));
+(S.extra||[]).forEach(function(x){ if(x && x.url && x.label) fl.push(link(x.url,x.label)); });
+if(S.email) fl.push('<a href="mailto:'+esc(S.email)+'">'+esc(S.email)+'</a>');
+el("f-links").innerHTML=fl.join(" · ");
+
+try{var t=localStorage.getItem("pthm");if(t)document.documentElement.setAttribute("data-theme",t);}catch(e){}
+document.getElementById("thm").addEventListener("click",function(){
+ var c=document.documentElement.getAttribute("data-theme");
+ var n=c==="dark"?"light":(c==="light"?"dark":"light");
+ document.documentElement.setAttribute("data-theme",n);
+ try{localStorage.setItem("pthm",n);}catch(e){}});
+})();
+</script>
+</body>
+</html>
